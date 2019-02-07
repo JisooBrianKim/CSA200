@@ -27,7 +27,7 @@ public:
 	BigFive& operator=(const BigFive& bigBob);
 
 	// Declaration function resetBigFive
-	void resetBigFive();
+	void resetBigFive() const;
 
 	// Destructor
 	~BigFive();

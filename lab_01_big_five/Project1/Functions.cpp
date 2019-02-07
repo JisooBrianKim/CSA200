@@ -200,7 +200,7 @@ BigFive& BigFive::operator=(const BigFive& bigBob)
 }
 
 // Definition function resetBigFive
-void BigFive::resetBigFive()
+void BigFive::resetBigFive() const
 {
 	*anInt = 0;
 	aDArray->emptyArray();
