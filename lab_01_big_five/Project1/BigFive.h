@@ -11,25 +11,26 @@ using namespace std;
 class BigFive
 {
 	// Declaration function operator<<
+	friend ostream& operator<<(ostream& out, const BigFive& bigBob);
 
 public:
 	// Default constructor
-
+	BigFive();
 
 	// Overloaded constructor
-
+	BigFive(const vector<vector<int>>& v1);
 
 	// Copy constructor
-
+	BigFive(const BigFive& bigBob);
 
 	// Overloaded assignment operator
-
+	BigFive& operator=(const BigFive& bigBob);
 
 	// Declaration function resetBigFive
-
+	void resetBigFive();
 
 	// Destructor
-
+	~BigFive();
 
 private:
 	int *anInt;

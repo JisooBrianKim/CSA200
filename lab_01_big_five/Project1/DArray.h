@@ -12,11 +12,11 @@ class DArray
 	// Overloaded insertion operator to print array
 
 public:
-    DArray( );
+	DArray();
 	DArray(int);
-	DArray(const DArray&);    
+	DArray(const DArray&);
 
-    void addElement(int);
+	void addElement(int);
 	void populateDArray(int[], int);
 
 	int getNumOfElem() const;
@@ -24,7 +24,7 @@ public:
 	int& at(int) const;
 
 	DArray& operator=(const DArray&);
-	
+
 	~DArray();
 
 	// This function is for testing cases ONLY;
@@ -36,18 +36,18 @@ public:
 	*******************************************************/
 
 	// Declaration emptyArray
-
+	void emptyArray();
 
 	// Declaration move constructor
-
+	DArray(DArray&& otherArray);
 
 	// Declaration move assignment operator
-
+	DArray& operator=(DArray&& otherArray);
 
 private:
-    int *a;	//will point to an array of integers
-    int capacity;			
-    int numOfElem;		
+	int *a;	//will point to an array of integers
+	int capacity;
+	int numOfElem;
 
 };
 
