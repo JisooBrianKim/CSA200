@@ -141,21 +141,21 @@ BigFive::BigFive(const vector<vector<int>>& v)
 	*anInt = v[0].at(0);
 
 	aDArray = new DArray;
-	for (int i = 0; i < v[1].size(); i++)
+	for (const int& i : aVector[1])
 	{
-		aDArray->addElement(v[1].at(i));
+		aDArray->addElement(i);
 	}
 
 	aList = new DoublyList;
-	for (int i = 0; i < v[2].size(); i++)
+	for (const int& i : aVector[2])
 	{
-		aList->insertBack(v[2].at(i));
+		aList->insertBack(i);
 	}
 
 	aVector = new vector<int>;
-	for (int i = 0; i < v[3].size(); i++)
+	for (const int& i : aVector[3])
 	{
-		aVector->push_back(v[3].at(i));
+		aVector->push_back(i);
 	}
 }
 
@@ -180,16 +180,12 @@ BigFive& BigFive::operator=(const BigFive& bigBob)
 {
 	if (&bigBob != this)
 	{
-		anInt = new int;
 		*anInt = *bigBob.anInt;
 
-		aDArray = new DArray;
 		*aDArray = *bigBob.aDArray;
 
-		aList = new DoublyList;
 		*aList = *bigBob.aList;
 
-		aVector = new vector<int>;
 		*aVector = *bigBob.aVector;
 	}
 	else
