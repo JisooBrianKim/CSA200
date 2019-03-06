@@ -45,7 +45,6 @@ int main()
 	*/
 
 	int mod = 10;
-	int l = 1;
 
 	for (int i = digits; i > 0; i--) // O(k) k is number of digits,
 	{								 // so the loop depends on the number of unique digits
