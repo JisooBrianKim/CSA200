@@ -1,0 +1,29 @@
+﻿  Main.cpp
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(70): error C2678: binary '<': no operator found which takes a left-hand operand of type 'std::basic_ostream<char,std::char_traits<char>>' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(319): note: could be 'bool std::operator <(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(312): note: or       'bool std::operator <(const std::error_code &,const std::error_code &) noexcept'
+  c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(70): note: or       'built-in C++ operator<(const char [2], const char [2])'
+  c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(70): note: while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, const char [2])'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(79): error C2143: syntax error: missing ';' before '<<'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(79): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(80): error C2065: 'a1': undeclared identifier
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(80): error C2065: 'numOfElements': undeclared identifier
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(80): error C2365: 'print': redefinition; previous definition was 'function'
+  c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(14): note: see declaration of 'print'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(82): error C2059: syntax error: 'delete'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(83): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(83): error C2440: 'initializing': cannot convert from 'nullptr' to 'int'
+  c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(83): note: A native nullptr can only be converted to bool or, using reinterpret_cast, to an integral type
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(85): error C2143: syntax error: missing ';' before '<<'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(85): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(85): error C2086: 'int cout': redefinition
+  c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(79): note: see declaration of 'cout'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(86): error C2365: 'system': redefinition; previous definition was 'function'
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1218): note: see declaration of 'system'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(87): error C2059: syntax error: 'return'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(88): error C2059: syntax error: '}'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(88): error C2143: syntax error: missing ';' before '}'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(91): error C2143: syntax error: missing ';' before '{'
+c:\users\jisoo\onedrive\desktop\lab_02_radix_sort_v2\lab_02_radix_sort_v2\project2\main.cpp(91): error C2447: '{': missing function header (old-style formal list?)
