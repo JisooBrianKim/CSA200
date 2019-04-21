@@ -121,7 +121,7 @@ Heapsort::~Heapsort()
 }
 
 Heapsort& Heapsort::operator=(const Heapsort& otherHeapsort)
-{+
+{
 	if (this != &otherHeapsort)
 	{
 		if (capacity != otherHeapsort.capacity)
