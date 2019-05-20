@@ -64,7 +64,7 @@ DoublyList::DoublyList(DoublyList&& otherList)
 }
 
 // Definition move assignment operator
-DoublyList& DoublyList:: operator=(DoublyL	ist&& otherList)
+DoublyList& DoublyList:: operator=(DoublyList&& otherList)
 {
 	if (&otherList != this)
 	{

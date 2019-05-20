@@ -7,7 +7,6 @@ Running time: O(n * k)
 
 #include <iostream>
 #include <string>
-#include <string>
 
 using namespace std;
 
@@ -52,7 +51,7 @@ int main()
 		for (int j = 0; j < 10; j++) // O(1), we know it goes from 0 to 9
 		{
 			int k = 0;
-			while (k <numOfElements && pos < numOfElements) // O(n), n is the number of elements in the array
+			while (k < numOfElements && pos < numOfElements) // O(n), n is the number of elements in the array
 			{
 				if (((a1[k] % mod) / (mod / 10)) == j)
 				{
@@ -71,7 +70,7 @@ int main()
 	}
 	delete[] a2;
 	a2 = nullptr;
-}
+
 	// END PRINTING HERE... 
 	/***********************************************************************************************************/
 
@@ -85,8 +84,9 @@ int main()
 	system("Pause");
 	return 0;
 }
+	
 
-void print(const int *a, int numOfElements)
+void print(const int * a, int numOfElements)
 {
 	for (int i = 0; i < numOfElements; ++i)
 		cout << a[i] << " ";
